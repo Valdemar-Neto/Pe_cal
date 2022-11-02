@@ -51,19 +51,3 @@ class Poisson:
     def P(self):
         p = round((e**(-self.lamb)*self.lamb**self.x)/math.factorial(self.x),3)
         print("A probabilidade é = {}".format(p))
-#a = Binomial(14,0.26,0)
-#a.Bin()
-#b =Binomial(14,0.26,1)
-#b.Bin()
-#c = Binomial(14,0.26,2)
-#c.Bin()
-##
-#soma = 0.01477+0.07263+0.16587
-#print(soma)
-#pelo_menos_dois = 1 - (0.01477+0.07263)
-#print(pelo_menos_dois)
-##
-#a.media()
-
-h = Hipergeometrica(24,18, )
-h.H()
